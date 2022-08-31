@@ -563,3 +563,13 @@ input {
   text-align: center;
   color: #FFFFFF;
 }
+
+#dialog {
+  max-height: 50px !important;
+}
+
+#dialog button {
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 7px 10px;
+}

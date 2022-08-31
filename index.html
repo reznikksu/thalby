@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css"
+        integrity="sha512-ELV+xyi8IhEApPS/pSj66+Jiw+sOT1Mqkzlh8ExXihe4zfqbWkxPRi8wptXIO9g73FSlhmquFlUOuMSoXz5IRw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -42,9 +45,12 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" title="search">
+                    <a id="opener" href="#" title="search">
                         <img src="images/Frame-3.svg" alt="search">
                     </a>
+                    <div id="dialog" title="Search dialog">
+                        <input type="search"><button type="submit">Search</button>
+                      </div>
                 </li>
                 <li>
                     <a href="#" title="shop">
@@ -320,7 +326,9 @@
 
     </div>
     </section>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
